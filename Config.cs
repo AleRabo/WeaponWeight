@@ -1,4 +1,4 @@
-﻿using Exiled.API.Interfaces;
+using Exiled.API.Interfaces;
 using System.ComponentModel;
 
 namespace WeaponWeight
@@ -48,6 +48,5 @@ namespace WeaponWeight
 
         [Description("The running speed when a player have equiped the Micro HID")]
         public float Mp7RunSpeed { get; set; } = 0.7f;
-
     }
 }
