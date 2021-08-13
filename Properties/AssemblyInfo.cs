@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change the values ​​of these attributes to change the information
 // associated with an assembly.
 [assembly: AssemblyTitle ("WeaponWeight")]
-[assembly: AssemblyDescription ("This Exiled plugin simulate the weight for holding a weapon")]
+[assembly: AssemblyDescription ("This Exiled plugin simulate the weight of holding a weapon")]
 [assembly: AssemblyConfiguration ("")]
 [assembly: AssemblyCompany ("")]
 [assembly: AssemblyProduct ("WeaponWeight")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all values ​​or set default values ​​for revision and build numbers
 // using the asterisk '*' as shown below:
 // [assembly: AssemblyVersion ("1.0. *")]
-[assembly: AssemblyVersion ("1.0.0.0")]
-[assembly: AssemblyFileVersion ("1.0.0.0")]
+[assembly: AssemblyVersion ("1.0.2.0")]
+[assembly: AssemblyFileVersion ("1.0.2.0")]
