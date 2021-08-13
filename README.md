@@ -1,2 +1,2 @@
 # WeaponWeight
- This Exiled plugin simulate the weight for holding a weapon
+ This Exiled plugin simulate the weight of holding a weapon
