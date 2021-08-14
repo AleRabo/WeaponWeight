@@ -7,6 +7,12 @@ namespace WeaponWeight
     {
         public void ChangingItem(ChangingItemEventArgs ev)
         {
+            if (!ev.NewItem.id.IsWeapon() && ev.NewItem.id != ItemType.MicroHID && ev.NewItem.id == ItemType.None)
+            {
+                ev.Player.ChangeWalkingSpeed(1f);
+                ev.Player.ChangeRunningSpeed(1f);
+            }
+            
             switch (ev.NewItem.id)
             {
                 case ItemType.GunLogicer:
@@ -30,12 +36,6 @@ namespace WeaponWeight
                 case ItemType.GunCOM15:
                     ev.Player.ChangeWalkingSpeed(Plugin.WeaponWeight.Config.Com15WalkSpeed);ev.Player.ChangeRunningSpeed(Plugin.WeaponWeight.Config.Com15RunSpeed);
                     break;
-            }
-
-            if (!ev.NewItem.id.IsWeapon() && ev.NewItem.id != ItemType.MicroHID && ev.NewItem.id == ItemType.None)
-            {
-                ev.Player.ChangeWalkingSpeed(1f);
-                ev.Player.ChangeRunningSpeed(1f);
             }
         }
     }
