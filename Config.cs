@@ -43,10 +43,10 @@ namespace WeaponWeight
         [Description("The running speed when a player have equiped the Micro HID")]
         public float MicroHIDRunSpeed { get; set; } = 0.7f;
 
-        [Description("The walking speed when a player have equiped the Micro HID")]
+        [Description("The walking speed when a player have equiped the Mp7")]
         public float Mp7WalkSpeed { get; set; } = 0.54f;
 
-        [Description("The running speed when a player have equiped the Micro HID")]
+        [Description("The running speed when a player have equiped the Mp7")]
         public float Mp7RunSpeed { get; set; } = 0.7f;
     }
 }
