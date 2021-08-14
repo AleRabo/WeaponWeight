@@ -7,7 +7,7 @@ namespace WeaponWeight
     {
         public void ChangingItem(ChangingItemEventArgs ev)
         {
-            if (!ev.NewItem.id.IsWeapon() && ev.NewItem.id != ItemType.MicroHID && ev.NewItem.id == ItemType.None)
+            if (!ev.NewItem.id.IsWeapon() && ev.NewItem.id != ItemType.MicroHID)
             {
                 ev.Player.ChangeWalkingSpeed(1f);
                 ev.Player.ChangeRunningSpeed(1f);
